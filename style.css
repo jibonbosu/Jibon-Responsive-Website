@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav{ 
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    letter-spacing: 4px;
+    color:#757575 ;
+    
+
+    
+}
+nav a:hover{
+    padding: 10px 16px;
+
+    background-color: rgba(128, 128, 128, 0.433);
+    color: aliceblue;
+}
+.nav-bar{
+    visibility: visible;
+}
+
+
+.image img{
+    
+    width: 100%;
+    height: auto;
+    opacity: 0.75;
+}
+main{
+    margin:10%;
+    
+}
+
+.container{
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.211);
+}
+.container .split{
+    width: 50%;
+    margin: 2%;
+    
+    
+}
+.split img{
+    width: 100%;
+    opacity: 0.75;
+    
+}
+.split h1{
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 36px;
+    margin-bottom: 10%;
+    color: #757575;
+}
+.split h4{
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 5%;
+    font-size: 20px;
+    color: #757575;
+    
+}
+
+
+.split p{
+    font-size: 18px ;
+    color: #757575;
+}
+#menu h4{
+    text-align: left;
+    margin-bottom: 2%;
+    color: #757575;
+    
+}
+#menu p{
+    margin-bottom: 10%;
+    font-size: 15px;
+    color: #757575;
+
+}
+
+.container2 h1{
+    text-align: left;
+    letter-spacing: 4px;
+    font-size: 36px;
+    margin: 5% 0;
+    color: #757575;
+}
+input{
+    width:100%;
+    border: none;
+    border-bottom: 1px solid;
+    margin-top: 3%;
+    padding: 10px;
+
+}
+button{
+    margin-top: 5%;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 64px 0;
+    background-color:#75757527;
+}
+footer p{
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+
+
+@media screen and (max-width: 870px) {
+    
+    
+   
+    .container{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .container .split{
+        width: 100%;
+            
+    }
+    .split img{
+        width: 100%;
+        
+    }
+    
+        
+    .logo{
+        width: 1000px;
+        float: left;
+        
+    }
+   
+
+    .nav-bar{
+        visibility: hidden;
+    }
+    
+}
+
